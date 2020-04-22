@@ -5,4 +5,4 @@ set -o nounset
 set -o pipefail
 set -o xtrace
 
-git clone https://github.com/jadarsie/e2e-ci-poc -b master
+git clone https://github.com/haofan-ms/e2e-ci-poc -b test
