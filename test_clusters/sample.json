@@ -5,7 +5,7 @@
     },
     "apiModel": {
         "apiVersion": "vlabs",
-        "location": "",
+        "location": "redmond",
         "properties": {
             "orchestratorProfile": {
                 "orchestratorType": "Kubernetes",
@@ -37,19 +37,19 @@
                 "ssh": {
                     "publicKeys": [
                         {
-                            "keyData": ""
+                            "keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDeXskJVYN/nmLJzDJcvLlWVUdCC59cUUHOCZW7ILmMYbcy8m5uM3Zqa2mwD73wiCjXU4HNfAyQGL4yh1wTK7J7V/tEjP1HD4lb85hiiPnNjAj8vYSsFMohGBEdEK3cGN9iEC2CPZyQ4Rre+1F+39UH5/ZOXh+I8HbF9cHswbvDuvFUCq7gSGdkHzIDGgTN92x2QNW8fpV83sAu8YWCwkzgOTBTOMpnfSfGsY0jxuTCQ6uwMUEm1qHP4P2qCyrzLK//wLp104/pA4CsU3dwJl62iVG/U/0ENwqo/J14Jzjv5z1jv/iPi944ZGLal0QW1H2V3uLPmc3eUr2ivQ7rLUeL administrator@n42r0702-DVM"
                         }
                     ]
                 }
             },
             "servicePrincipalProfile": {
-                "clientId": "",
-                "secret": ""
+                "clientId": "7f1af20a-d3b4-489a-8583-84f00ba8559c",
+                "secret": "OSWB77k8wTgVOCwwGYUfOlWORN1JFXHZMqGgLCMY"
             },
             "customCloudProfile": {
-                "identitySystem": "",
+                "identitySystem": "adfs",
                 "authenticationMethod": "client_secret",
-                "portalURL": ""
+                "portalURL": "https://portal.redmond.ext-n42r0702.masd.stbtest.microsoft.com/"
             }
         }
     }
