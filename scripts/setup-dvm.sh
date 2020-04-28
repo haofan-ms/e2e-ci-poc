@@ -11,7 +11,6 @@ then
 fi
 git clone https://github.com/haofan-ms/e2e-ci-poc -b test
 
-REPO_ROOT=e2e-ci-poc
 source "${REPO_ROOT}/hack/ensure-packages.sh"
 source "${REPO_ROOT}/hack/ensure-docker.sh"
 source "${REPO_ROOT}/hack/ensure-azcli.sh"
