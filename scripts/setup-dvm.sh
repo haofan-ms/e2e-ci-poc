@@ -5,6 +5,8 @@ set -o nounset
 set -o pipefail
 set -o xtrace
 
+REPO_ROOT=$(dirname "${BASH_SOURCE[0]}")/..
+
 if [ -d "e2e-ci-poc" ];
 then
     rm -rf e2e-ci-poc
